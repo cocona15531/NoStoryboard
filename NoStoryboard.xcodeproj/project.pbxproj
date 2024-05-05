@@ -13,6 +13,8 @@
 		B19557872BE615DA006A9F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19557862BE615DA006A9F8B /* Assets.xcassets */; };
 		B195578A2BE615DA006A9F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19557882BE615DA006A9F8B /* LaunchScreen.storyboard */; };
 		B1CC6DAC2BE6713D00297886 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC6DAB2BE6713D00297886 /* ModalViewController.swift */; };
+		B1CC6DAE2BE74B8800297886 /* FisrtPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC6DAD2BE74B8800297886 /* FisrtPageViewController.swift */; };
+		B1CC6DB02BE74B9900297886 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC6DAF2BE74B9900297886 /* SecondPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B19557892BE615DA006A9F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B195578B2BE615DA006A9F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1CC6DAB2BE6713D00297886 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		B1CC6DAD2BE74B8800297886 /* FisrtPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisrtPageViewController.swift; sourceTree = "<group>"; };
+		B1CC6DAF2BE74B9900297886 /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		B195577C2BE615D8006A9F8B /* NoStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				B1CC6DB12BE74BB200297886 /* View */,
 				B195577D2BE615D8006A9F8B /* AppDelegate.swift */,
 				B195577F2BE615D8006A9F8B /* SceneDelegate.swift */,
-				B19557812BE615D8006A9F8B /* ViewController.swift */,
 				B19557862BE615DA006A9F8B /* Assets.xcassets */,
 				B19557882BE615DA006A9F8B /* LaunchScreen.storyboard */,
 				B195578B2BE615DA006A9F8B /* Info.plist */,
-				B1CC6DAB2BE6713D00297886 /* ModalViewController.swift */,
 			);
 			path = NoStoryboard;
+			sourceTree = "<group>";
+		};
+		B1CC6DB12BE74BB200297886 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B19557812BE615D8006A9F8B /* ViewController.swift */,
+				B1CC6DAB2BE6713D00297886 /* ModalViewController.swift */,
+				B1CC6DAD2BE74B8800297886 /* FisrtPageViewController.swift */,
+				B1CC6DAF2BE74B9900297886 /* SecondPageViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			files = (
 				B1CC6DAC2BE6713D00297886 /* ModalViewController.swift in Sources */,
 				B19557822BE615D8006A9F8B /* ViewController.swift in Sources */,
+				B1CC6DAE2BE74B8800297886 /* FisrtPageViewController.swift in Sources */,
+				B1CC6DB02BE74B9900297886 /* SecondPageViewController.swift in Sources */,
 				B195577E2BE615D8006A9F8B /* AppDelegate.swift in Sources */,
 				B19557802BE615D8006A9F8B /* SceneDelegate.swift in Sources */,
 			);
